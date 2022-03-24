@@ -18,4 +18,25 @@
   --contrast-text: #f8f8f2;
   --accent-1: #ff5555;
   --accent-2: #50fa7b;
+  --darklight: #989a9b;
+  --mediumlight: #9e9faa;
+  --lightlight: #e788cb6b;
+}
+
+@media (prefers-color-scheme: light) {
+  .main-area {
+    background: var(--lightlight);
+  }
+
+  .article {
+    background: var(--lightlight);
+  }
+
+  .footer {
+    background: var(--darklight);
+  }
+
+  .header {
+    background: var(--darklight);
+  }
 }
